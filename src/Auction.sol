@@ -2,10 +2,10 @@
 pragma solidity ^0.8.0;
 
 import "@openzeppelin/contracts/token/ERC721/IERC721.sol";
-import "@openzeppelin/contracts/utils/math/SafeMath.sol";
+
 
 contract BlindAuction {
-using SafeMath for uint256;
+
 // Structure to hold information about a bid
 struct Bid {
     address payable bidder; // Ethereum address of the bidder
